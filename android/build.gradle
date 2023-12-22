@@ -26,6 +26,7 @@ def safeExtGet(prop, fallback) {
 
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 29)
+    namespace 'com.rnbiometrics'
 
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
